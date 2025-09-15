@@ -30,3 +30,10 @@ function alphabetPosition(text) {
   return res.trimEnd();
 }
 ```
+## Experience
+### Education
++ **University**: Bauman Moscow State Technical University (2025). Major in Computer Science and Engineering
+
+## Languages
++ **English**: A2 (Pre-Intermediate)
++ **Russian**: Native

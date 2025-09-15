@@ -16,3 +16,17 @@ I like to develop interfaces, and even more I like that it is not just about a v
 + React
 + MobX
 + Git
+## Code Example
+```javascript
+function alphabetPosition(text) {
+  let res = '';
+  for (ch of text) {
+    let code = ch.toUpperCase().charCodeAt(0);
+    if (code >= 65 && code <=90) {
+      code -= 64;
+      res += `${code} `;
+    }
+  }
+  return res.trimEnd();
+}
+```
